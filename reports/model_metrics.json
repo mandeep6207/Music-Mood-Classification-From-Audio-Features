@@ -1,0 +1,49 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 0.9748128577719066,
+  "weighted_precision": 0.9747501498201087,
+  "weighted_recall": 0.9748128577719066,
+  "weighted_f1": 0.9746028896952984,
+  "train_rows": 90839,
+  "test_rows": 22710,
+  "feature_columns": [
+    "danceability",
+    "loudness",
+    "speechiness",
+    "instrumentalness",
+    "liveness",
+    "tempo",
+    "popularity",
+    "duration_ms",
+    "explicit"
+  ],
+  "mood_distribution": {
+    "Balanced": 72495,
+    "Calm": 6584,
+    "Energetic": 21358,
+    "Sad": 13112
+  },
+  "model_comparison": [
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9748128577719066,
+      "weighted_precision": 0.9747501498201087,
+      "weighted_recall": 0.9748128577719066,
+      "weighted_f1": 0.9746028896952984
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.9691325407309556,
+      "weighted_precision": 0.9691752850918419,
+      "weighted_recall": 0.9691325407309556,
+      "weighted_f1": 0.9687171016959324
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7922501100836636,
+      "weighted_precision": 0.785446910094129,
+      "weighted_recall": 0.7922501100836636,
+      "weighted_f1": 0.782744449194066
+    }
+  ]
+}

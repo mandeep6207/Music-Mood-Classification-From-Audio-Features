@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+    Balanced       0.98      0.99      0.98     14499
+        Calm       0.97      0.94      0.96      1317
+   Energetic       0.97      0.92      0.94      4272
+         Sad       0.97      0.99      0.98      2622
+
+    accuracy                           0.97     22710
+   macro avg       0.97      0.96      0.97     22710
+weighted avg       0.97      0.97      0.97     22710
